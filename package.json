@@ -1,0 +1,21 @@
+{
+  "name": "blogEJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-edge": "^2.0.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-fileupload": "^1.1.6",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.8.9"
+  }
+}

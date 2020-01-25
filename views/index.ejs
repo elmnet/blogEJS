@@ -1,0 +1,14 @@
+<h1>Hello</h1>
+<a href="create-blog">Create blog</a>
+<a href="remove-blog">Remove blog</a>
+<div>
+    <ul>
+        <% posts.forEach(function(posts){ %>
+            <li>
+                <a href="/post/<%= posts._id %>">
+                    <%= posts.title %>
+                </a>
+            </li>
+        <% }) %>
+    </ul>
+</div>

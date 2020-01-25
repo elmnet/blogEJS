@@ -1,0 +1,11 @@
+<a href="/">Homepage</a>
+<ul>
+    <% posts.forEach(function (posts) { %>
+        <li>
+            <h1><%= posts.title %></h1>
+            <form action="/delete-post/<%= posts._id %>" method="post">
+                <button type="submit">Remove</button>
+            </form>
+        </li>
+    <% }) %>
+</ul>
